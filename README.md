@@ -1,25 +1,21 @@
-# CareerPath — AIML-500 Professional Portfolio, Artifact 1
+# Abhiram Chanda — Professional Portfolio
 
-This repository contains a ready-to-publish GitHub Pages portfolio and the CareerPath interview practice chatbot.
+A responsive, static GitHub Pages portfolio inspired by the layout of the shared AVCK reference, with original content.
 
-## Files
-- `index.html` — professional portfolio landing page
-- `careerpath.html` — actual CareerPath chatbot (offline mode works without credentials)
-- `assets/ai-comparison-1.png`, `2.png`, `3.png` — Workshop 1 AI assistant comparison screenshots, not chatbot test screenshots
-- `ASSIGNMENT_REFLECTION.txt` — reflection to paste into the course assignment submission area
+## Publish to your existing repository
+1. Download and unzip the package.
+2. Open the `careerpath-portfolio` repository on GitHub.
+3. Select **Add file → Upload files** and upload `index.html`, `style.css`, `script.js`, and the `artifacts` folder (preserve folder paths). Do **not** delete or overwrite your existing `careerpath.html` or its assets.
+4. Commit changes to the branch used by GitHub Pages (usually `main`).
+5. Visit `https://abiramc99-lang.github.io/careerpath-portfolio/` after deployment.
 
-## Publish using GitHub Pages
-1. Sign in to GitHub and create a **public** repository, e.g. `careerpath-portfolio`.
-2. Upload the **contents of this folder** to the repository root (not the ZIP itself). Ensure `index.html` is in the root.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select branch `main` and folder `/(root)`, then click **Save**.
-6. Once published, open the GitHub Pages URL shown under Pages. The usual format is `https://YOUR-USERNAME.github.io/careerpath-portfolio/`.
-7. Test the **Try CareerPath** button, five chatbot features, and all three evidence image links.
-8. Submit the actual working URL and paste the text from `ASSIGNMENT_REFLECTION.txt` into your assignment's reflection field.
+If GitHub's browser uploader does not preserve folder paths, create the `artifacts` directory first and upload its four HTML files into it.
 
-## Important limitations
-- The default chatbot uses deterministic, keyword-based responses; it is not a generative model.
-- The optional API feature requires a compatible endpoint, CORS permissions, and appropriate handling of secrets. Do **not** publish API keys in your repository or enter privileged tokens on a publicly hosted client-side page. A server-side proxy is recommended for a production AI integration.
-- The user confirmed the offline chatbot worked, but no 7/7 automated result or per-feature outcomes were recorded.
-- The screenshots are evidence of an LLM comparison activity, not CareerPath's operation.
+## Customize before publishing
+- Replace the placeholder portrait with your own photo (or remove it).
+- Review and personalize the bio, value proposition, and reflections.
+- Add verified education, experience, skills, and professional links.
+- Add screenshots and evidence to artifact pages.
+- Keep the existing CareerPath file and assets intact.
+
+All pages are static and require no build tools or dependencies.
