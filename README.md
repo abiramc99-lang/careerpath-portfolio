@@ -1,21 +1,15 @@
-# Abhiram Chanda — Professional Portfolio
+# Abhiram Chanda — Forest Portfolio
 
-A responsive, static GitHub Pages portfolio inspired by the layout of the shared AVCK reference, with original content.
+A static, responsive GitHub Pages portfolio with a forest background, glass-style sections, a real uploaded profile photo, and artifact pages.
 
-## Publish to your existing repository
-1. Download and unzip the package.
-2. Open the `careerpath-portfolio` repository on GitHub.
-3. Select **Add file → Upload files** and upload `index.html`, `style.css`, `script.js`, and the `artifacts` folder (preserve folder paths). Do **not** delete or overwrite your existing `careerpath.html` or its assets.
-4. Commit changes to the branch used by GitHub Pages (usually `main`).
-5. Visit `https://abiramc99-lang.github.io/careerpath-portfolio/` after deployment.
+## Upload to existing GitHub Pages repository
+1. Back up your existing `careerpath-portfolio` repository.
+2. Unzip this package. Upload **the contents** of the `abhiram-forest-portfolio` folder to the repository root (not the folder itself).
+3. Overwrite `index.html`, `style.css`, `script.js`, and the `artifacts/` and `assets/` files where prompted.
+4. **Do not delete** your existing `careerpath.html` or its supporting files.
+5. Commit changes. Verify Settings → Pages → Deploy from a branch, main, / (root).
+6. Open https://abiramc99-lang.github.io/careerpath-portfolio/ after publishing.
 
-If GitHub's browser uploader does not preserve folder paths, create the `artifacts` directory first and upload its four HTML files into it.
+The forest background is derived from the upper, tree-filled area of the original photo you supplied; no externally hosted images are required. The portrait is your original masked photo.
 
-## Customize before publishing
-- Replace the placeholder portrait with your own photo (or remove it).
-- Review and personalize the bio, value proposition, and reflections.
-- Add verified education, experience, skills, and professional links.
-- Add screenshots and evidence to artifact pages.
-- Keep the existing CareerPath file and assets intact.
-
-All pages are static and require no build tools or dependencies.
+The portfolio contains project summaries; add verified project evidence to artifact pages when available. The existing CareerPath chatbot must remain in the repo for its link to work.
