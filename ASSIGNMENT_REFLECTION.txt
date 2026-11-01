@@ -1,0 +1,9 @@
+Professional Portfolio – Artifact 1 | Assignment Reflection
+
+For my first professional portfolio artifact, I selected CareerPath, an interview preparation chatbot from my AI Lab work. I chose this project because it demonstrates how I can apply Design Thinking to a practical problem and turn an idea into a working browser-based prototype. My intended audience includes recruiters, hiring managers, and people interested in practical AI-related projects.
+
+CareerPath is designed for students, recent graduates, and job seekers. It provides mock interview questions, guidance on the STAR method, a five-day preparation plan, resume improvement tips, and advice for workplace disagreement scenarios. I used its offline guided mode and confirmed that the chatbot worked. Although it includes seven built-in self-checks, I did not record their numerical result, so I have not claimed that they all passed.
+
+I organized the portfolio to explain the user problem, the design process, the prototype, its responsible-use considerations, and the limitations of my evaluation. This helped me practice presenting technical work clearly to a professional audience. If I continue developing CareerPath, I would collect more detailed testing evidence and feedback from job seekers to improve the usefulness of its guidance.
+
+Portfolio URL: [PASTE YOUR PUBLISHED GITHUB PAGES LINK HERE]
